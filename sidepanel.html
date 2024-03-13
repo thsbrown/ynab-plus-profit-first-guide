@@ -11,36 +11,140 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Daily Routine
+                        📆 Daily Routine
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">📝 Categorize Transactions Appropriately</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="dailyRoutineFirstCheckbox">
+                                <label class="form-check-label" for="dailyRoutineFirstCheckbox">Assign all inflow transactions to "Inflow: To be Budgeted" category.</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="dailyRoutineSecondCheckbox">
+                                <label class="form-check-label" for="dailyRoutineSecondCheckbox">Assign all outflow transactions to respective opex YNAB category.</label>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Profit First Routine
+                        💹1️⃣ Profit First Routine
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">💹1️⃣ Assign Money Based on CAPS</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineFirstCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineFirstCheckbox">Move money from TBB to Profit First categories based on CAPS.</label>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">💰 Profit + Tax 2 Biz Savings</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineSecondCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineSecondCheckbox">Move money from "Profit" PF category to "Profit Savings" category.</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineThirdCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineThirdCheckbox">Move money from "Tax" PF category to "Taxes" category.</label>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">🤑 Pay The Owners</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineFifthCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineFifthCheckbox">Move money from "Owners Comp" PF category to appropriate owners comp categories (e.g. Owners Comp - Thomas).</label>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">⚙️ Pay Your Operating Expenses</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineSixthCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineSixthCheckbox">Move money from "OPEX" PF category to To Be Budgeted (TBB should be zero at this point).</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineSeventhCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineSeventhCheckbox">Use money from "OPEX" PF category to fund opex categories. (First move "OPEX" category money to TBB to make this easier!)</label>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">🏦 Make Profit + Taxes Untouchable</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineEighthCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineEighthCheckbox">Transfer money from "Profit Savings" & "Taxes" categories to respective bank accounts (unseen accounts if possible).</label>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">💵 Pay Bills</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineNinthCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineNinthCheckbox">Pay owners their salaries (this means you) based on owners comp categories.</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineTenthCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineTenthCheckbox">Run Payroll based on payroll categories.</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineEleventhCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineEleventhCheckbox">Pay appropriate bills that are due between now and next PF Routine.</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineTwelfthCheckbox">
+                                <label class="form-check-label" for="profitFirstRoutineTwelfthCheckbox">Pay credit cards based on YNAB categories.</label>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Quarterly Routine
+                        📅 Quarterly Routine
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">💹1️⃣ Profit First</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="quarterlyRoutineFirstCheckbox">
+                                <label class="form-check-label" for="quarterlyRoutineFirstCheckbox">Complete A Profit First routine.</label>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">🎉 Profit</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="quarterlyRoutineSecondCheckbox">
+                                <label class="form-check-label" for="quarterlyRoutineSecondCheckbox">Take 50% of "Profit Savings" and pay yourself 🎉! No reinvesting back into business.</label>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">🏛️ Pay Taxes</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="quarterlyRoutineThirdCheckbox">
+                                <label class="form-check-label" for="quarterlyRoutineThirdCheckbox">Pay quarterly taxes to the government.</label>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                <h6 class="mb-1">🔢 Revise CAPS & Taps</h6>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="quarterlyRoutineFourthCheckbox">
+                                <label class="form-check-label" for="quarterlyRoutineFourthCheckbox">Adjust CAPS & TAPS to make your business more effective (changes not always necessary).</label>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
