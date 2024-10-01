@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bootstrap demo</title>
         <link href="/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="/libs/twemoji/twemoji.min.js"></script>
     </head>
     <body>
         <div class="accordion" id="accordionExample">
@@ -26,7 +28,7 @@
                             </li>
                             <li class="list-group-item">
                                 <input class="form-check-input me-1" type="checkbox" value="" id="dailyRoutineSecondCheckbox">
-                                <label class="form-check-label" for="dailyRoutineSecondCheckbox">Assign all outflow transactions to respective opex YNAB category.</label>
+                                <label class="form-check-label" for="dailyRoutineSecondCheckbox">Assign all outflow transactions to respective OPEX YNAB categories.</label>
                             </li>
                         </ul>
                     </div>
@@ -82,7 +84,7 @@
                             </li>
                             <li class="list-group-item">
                                 <input class="form-check-input me-1" type="checkbox" value="" id="profitFirstRoutineSeventhCheckbox">
-                                <label class="form-check-label" for="profitFirstRoutineSeventhCheckbox">Use money from "OPEX" PF category to fund opex categories. (First move "OPEX" category money to TBB to make this easier!)</label>
+                                <label class="form-check-label" for="profitFirstRoutineSeventhCheckbox">Use money from "To Be Budgeted" to fund opex categories.</label>
                             </li>
                             <li class="list-group-item list-group-item-secondary">
                                 <h6 class="mb-1">🏦 Make Profit + Taxes Untouchable</h6>
@@ -149,7 +151,12 @@
                             </li>
                             <li class="list-group-item">
                                 <input class="form-check-input me-1" type="checkbox" value="" id="quarterlyRoutineFourthCheckbox">
-                                <label class="form-check-label" for="quarterlyRoutineFourthCheckbox">Adjust CAPS & TAPS to make your business more effective (changes not always necessary).</label>
+                                <label class="form-check-label" for="quarterlyRoutineFourthCheckbox">Adjust CAPS & TAPS to make your business more effective (3% recommended).</label>
+                                <div class="card mt-3">
+                                    <div class="card-body fst-italic">
+                                        If you are adjusting and tweaking your percentages conservatively, I suggest that you account for three percentage points each quarter. Meaning you could move your PROFIT account from 5 percent to 8 percent. Or you could move your TAX account from 11 percent to 12 percent, your PROFIT account from 5 percent to 6 percent, and your OWNER'S COMP account from 23 percent to 24 percent.
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -157,5 +164,6 @@
             </div>
         </div>
         <script src="/libs/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="content.js"></script>
     </body>
 </html>
